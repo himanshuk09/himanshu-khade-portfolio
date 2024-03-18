@@ -1,0 +1,192 @@
+<div className="details-container color-container">
+  <div className="article-container">
+    <img src={require("../assets/Coffee.png")} alt="Project 1" className="project-img" />
+  </div>
+  <h2 className="experience-sub-title project-title">Hot Coffee</h2>
+  <div className="btn-container">
+    <button className="btn btn-color-2 project-btn" onClick={()=> (window.location.href = "https://github.com/")}
+      >
+      Github
+    </button>
+    <button className="btn btn-color-2 project-btn" onClick={()=> (window.location.href = "https://github.com/")}
+      >
+      Live Demo
+    </button>
+  </div>
+</div>
+<div className="details-container color-container">
+  <div className="article-container">
+    <img src={require("../assets/project-2.png")} alt="Project 2" className="project-img" />
+  </div>
+  <h2 className="experience-sub-title project-title">Project Two</h2>
+  <div className="btn-container">
+    <button className="btn btn-color-2 project-btn" onClick={()=> (window.location.href = "https://github.com/")}
+      >
+      Github
+    </button>
+    <button className="btn btn-color-2 project-btn" onClick={()=> (window.location.href = "https://github.com/")}
+      >
+      Live Demo
+    </button>
+  </div>
+</div>
+<div className="details-container color-container">
+  <div className="article-container">
+    <img src={require("../assets/project-3.png")} alt="Project 3" className="project-img" />
+  </div>
+  <h2 className="experience-sub-title project-title">
+    Project Three
+  </h2>
+  <div className="btn-container">
+    <button className="btn btn-color-2 project-btn" onClick={()=> (window.location.href = "https://github.com/")}
+      >
+      Github
+    </button>
+    <button className="btn btn-color-2 project-btn" onClick={()=> (window.location.href = "https://github.com/")}
+      >
+      Live Demo
+    </button>
+  </div>
+</div>
+<div className="details-container color-container">
+  <div className="article-container">
+    <img src={require("../assets/project-3.png")} alt="Project 3" className="project-img" />
+  </div>
+  <h2 className="experience-sub-title project-title">
+    Project Three
+  </h2>
+  <div className="btn-container">
+    <button className="btn btn-color-2 project-btn" onClick={()=> (window.location.href = "https://github.com/")}
+      >
+      Github
+    </button>
+    <button className="btn btn-color-2 project-btn" onClick={()=> (window.location.href = "https://github.com/")}
+      >
+      Live Demo
+    </button>
+  </div>
+</div>
+<div className="details-container color-container">
+  <div className="article-container">
+    <img src={require("../assets/project-3.png")} alt="Project 3" className="project-img" />
+  </div>
+  <h2 className="experience-sub-title project-title">
+    Project Three
+  </h2>
+  <div className="btn-container">
+    <button className="btn btn-color-2 project-btn" onClick={()=> (window.location.href = "https://github.com/")}
+      >
+      Github
+    </button>
+    <button className="btn btn-color-2 project-btn" onClick={()=> (window.location.href = "https://github.com/")}
+      >
+      Live Demo
+    </button>
+  </div>
+</div>
+
+<!--  -->
+
+
+<article>
+  <img src={require("../assets/html.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>HTML</h3>
+    <p>Experienced</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>CSS</h3>
+    <p>Experienced</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>JavaScript</h3>
+    <p>Basic</p>
+  </div>
+</article>{" "}
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>ES6</h3>
+    <p>Intermediate</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>TypeScript</h3>
+    <p>Basic</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>BootStrap</h3>
+    <p>Intermediate</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>Tailwind</h3>
+    <p>Intermediate</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>Material UI</h3>
+    <p>Intermediate</p>
+  </div>
+</article>
+
+
+<!--  -->
+
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>Node JS</h3>
+    <p>Intermediate</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>Express JS</h3>
+    <p>Intermediate</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>Nest JS</h3>
+    <p>Intermediate</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>MongoDB</h3>
+    <p>Intermediate</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>PostgreSQL</h3>
+    <p>Basic</p>
+  </div>
+</article>
+<article>
+  <img src={require("../assets/checkmark.png")} alt="Experience icon" className="icon" />
+  <div>
+    <h3>Git</h3>
+    <p>Intermediate</p>
+  </div>
+</article>
