@@ -17,12 +17,20 @@ const Profile = () => {
         <h1 className="title">Himanshu Khade</h1>
         <p className="section__text__p2">MERN STACK Developer</p>
         <div className="btn-container">
-          <button
-            className="btn btn-color-2"
-            onClick={() => window.open("./assets/resume-example.pdf")}
+          <a
+            href="https://drive.google.com/file/d/1iaxLl2ajhNSFeuYwKJmgQ5TQamOT9XL7/view?usp=sharing"
+            download="himanshuKhadeResume"
+            type="pdf"
+            target="_blank"
+            rel="noreferrer"
           >
-            Download CV
-          </button>
+            <button
+              className="btn btn-color-2"
+              // onClick={() => window.open("../assets/himanshu-khade-resume.pdf")}
+            >
+              Download CV
+            </button>
+          </a>
           <button
             className="btn btn-color-1"
             onClick={() => (window.location.href = "./#contact")}
@@ -31,23 +39,37 @@ const Profile = () => {
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src={require("../assets/linkedin.png")}
-            alt="My LinkedIn profile"
-            className="icon"
-            onClick={() =>
-              (window.location.href =
-                "https://www.linkedin.com/in/himanshu-khade-3a64a2197/")
-            }
-          />
-          <img
-            src={require("../assets/github.png")}
-            alt="My Github profile"
-            className="icon"
-            onClick={() =>
-              (window.location.href = "https://github.com/himanshuk09")
-            }
-          />
+          <a
+            href="https://www.linkedin.com/in/himanshu-khade-3a64a2197/"
+            type="link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={require("../assets/linkedin.png")}
+              alt="My LinkedIn profile"
+              className="icon"
+              // onClick={() =>
+              //   (window.location.href =
+              //     "https://www.linkedin.com/in/himanshu-khade-3a64a2197/")
+              // }
+            />
+          </a>
+          <a
+            href="https://github.com/himanshuk09"
+            type="link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={require("../assets/github.png")}
+              alt="My Github profile"
+              className="icon"
+              onClick={() =>
+                (window.location.href = "https://github.com/himanshuk09")
+              }
+            />
+          </a>
         </div>
       </div>
     </section>

@@ -35,7 +35,11 @@ const Contact = () => {
             className="icon contact-icon"
           />
           <p>
-            <a href="https://www.linkedin.com/in/himanshu-khade-3a64a2197/">
+            <a
+              href="https://www.linkedin.com/in/himanshu-khade-3a64a2197/"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
           </p>
