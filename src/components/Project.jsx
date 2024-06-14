@@ -25,8 +25,8 @@ const Project = () => {
       imageUrl: TimeSync,
       projectName: "TimeSync App",
       id: 3,
-      live: "https://github.com/himanshuk09/TimeSync-practice",
-      githubLink: "https://github.com/himanshuk09/TimeSync-practice",
+      live: "https://github.com/himanshuk09/TimeSync-fe",
+      githubLink: "https://github.com/himanshuk09/TimeSync-fe",
     },
     {
       imageUrl: UrlShortner,

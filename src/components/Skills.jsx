@@ -36,7 +36,7 @@ const Experience = () => {
     { name: "Express JS", src: EX, experiences: "Intermediate", id: 1 },
     { name: "Nest JS", src: NEST, experiences: "Intermediate", id: 2 },
     { name: "MongoDB", src: MONGODB, experiences: "Intermediate", id: 3 },
-    { name: "PostgreSQL", src: POSTFRESQL, experiences: "Basic", id: 4 },
+    // { name: "PostgreSQL", src: POSTFRESQL, experiences: "Basic", id: 4 },
     { name: "Git", src: GIT, experiences: "Intermediate", id: 5 },
   ];
   return (

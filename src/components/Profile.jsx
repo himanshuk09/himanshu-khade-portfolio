@@ -18,7 +18,8 @@ const Profile = () => {
         <p className="section__text__p2">MERN STACK Developer</p>
         <div className="btn-container">
           <a
-            href="https://drive.google.com/file/d/1iaxLl2ajhNSFeuYwKJmgQ5TQamOT9XL7/view?usp=sharing"
+            // href="https://drive.google.com/file/d/1iaxLl2ajhNSFeuYwKJmgQ5TQamOT9XL7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1q0FCtw3GTGbklm7a6TRlBbdFwatDd3Ai/view?usp=sharing"
             download="himanshuKhadeResume"
             type="pdf"
             target="_blank"

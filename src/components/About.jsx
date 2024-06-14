@@ -17,7 +17,7 @@ const About = () => {
           data-aos-easing="ease-in-sine"
         >
           <img
-            src={require("../assets/himu.png")}
+            src={require("../assets/himu-circle.png")}
             alt="Profile picture"
             className="about-pic"
           />
