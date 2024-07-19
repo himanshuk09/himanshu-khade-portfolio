@@ -1,12 +1,28 @@
 import React, { useRef } from "react";
 import HotCoffee from "../assets/HotCoffee.png";
 import Taskify from "../assets/Taskify.png";
-import TimeSync from "../assets/TimeSync.png";
+import TimeSync from "../assets/TimeSync.jpg";
 import FoodApp from "../assets/FoodApp.png";
 import UrlShortner from "../assets/UrlShortner.png";
 import Unichat from "../assets/Unichat.png";
+import Explorify from "../assets/Explorify.jpg";
+
 const Project = () => {
   const project = [
+    {
+      imageUrl: Explorify,
+      projectName: "Explorify App",
+      id: 0,
+      live: "https://explorify-hub.vercel.app/",
+      githubLink: "https://github.com/himanshuk09/Explorify",
+    },
+    {
+      imageUrl: TimeSync,
+      projectName: "TimeSync App",
+      id: 3,
+      live: "https://github.com/himanshuk09/TimeSync-fe",
+      githubLink: "https://github.com/himanshuk09/TimeSync-fe",
+    },
     {
       imageUrl: HotCoffee,
       projectName: "Hot Coffee App",
@@ -21,13 +37,7 @@ const Project = () => {
       live: "https://taskify-app-hk.netlify.app/",
       githubLink: "https://github.com/himanshuk09/Taskify",
     },
-    {
-      imageUrl: TimeSync,
-      projectName: "TimeSync App",
-      id: 3,
-      live: "https://github.com/himanshuk09/TimeSync-fe",
-      githubLink: "https://github.com/himanshuk09/TimeSync-fe",
-    },
+
     {
       imageUrl: UrlShortner,
       projectName: " Url  Shortner App",

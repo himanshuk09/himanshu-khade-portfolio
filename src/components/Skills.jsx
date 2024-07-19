@@ -13,6 +13,8 @@ import NEST from "../assets/NEST.png";
 import EX from "../assets/EXPRESS.png";
 import MONGODB from "../assets/MONGODB.png";
 import POSTFRESQL from "../assets/POSTGRESQL.png";
+import SQL from "../assets/SQL.png";
+
 import GIT from "../assets/GIT.png";
 const Experience = () => {
   const Frontend = [
@@ -26,9 +28,10 @@ const Experience = () => {
       experiences: "Intermediate",
       id: 4,
     },
-    { name: "Bootstrap", src: BOOTSTRAP, experiences: "Intermediate", id: 5 },
-    { name: "React JS", src: REACT, experiences: "Intermediate", id: 6 },
-    { name: "Material UI", src: MUI, experiences: "Intermediate", id: 7 },
+    { name: "React JS", src: REACT, experiences: "Intermediate", id: 7 },
+    { name: "Tailwind", src: TAILWIND, experiences: "Intermediate", id: 5 },
+    // { name: "Bootstrap", src: BOOTSTRAP, experiences: "Intermediate", id: 6 },
+    { name: "Material UI", src: MUI, experiences: "Intermediate", id: 8 },
   ];
 
   const Backend = [
@@ -37,6 +40,8 @@ const Experience = () => {
     { name: "Nest JS", src: NEST, experiences: "Intermediate", id: 2 },
     { name: "MongoDB", src: MONGODB, experiences: "Intermediate", id: 3 },
     // { name: "PostgreSQL", src: POSTFRESQL, experiences: "Basic", id: 4 },
+    { name: "SQL", src: SQL, experiences: "Intermediate", id: 4 },
+
     { name: "Git", src: GIT, experiences: "Intermediate", id: 5 },
   ];
   return (

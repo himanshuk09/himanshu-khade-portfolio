@@ -19,7 +19,8 @@ const Profile = () => {
         <div className="btn-container">
           <a
             // href="https://drive.google.com/file/d/1iaxLl2ajhNSFeuYwKJmgQ5TQamOT9XL7/view?usp=sharing"
-            href="https://drive.google.com/file/d/1q0FCtw3GTGbklm7a6TRlBbdFwatDd3Ai/view?usp=sharing"
+            // href="https://drive.google.com/file/d/1q0FCtw3GTGbklm7a6TRlBbdFwatDd3Ai/view?usp=sharing"
+            href="https://www.canva.com/design/DAGLL_yviQo/7eJibI_rf1Q4kokduCghlA/view?utm_content=DAGLL_yviQo&utm_campaign=designshare&utm_medium=link&utm_source=editor"
             download="himanshuKhadeResume"
             type="pdf"
             target="_blank"
